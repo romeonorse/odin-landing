@@ -89,13 +89,13 @@ nav {
 /* Examples */
 
 .examples {
-  background-color: #e5e7eb;
+  background-color: #fff;
   color: #1f2937;
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding: 50px;
-  height: 500px;
+  height: 400px;
   text-align: center;
 }
 
@@ -116,4 +116,72 @@ nav {
   width: 200px;
   border: 10px solid #3882f6;
   border-radius: 5px;
+}
+
+/* Quote */
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+blockquote {
+  font-size: 32px;
+  font-style: italic;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Call to action */
+
+.call-to-action {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-box {
+  height: 200px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 96px;
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+
+.call-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-secondary {
+  border: 1px solid #fff;
+}
+
+/* Footer */
+footer {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  font-size: 18px;
 }
